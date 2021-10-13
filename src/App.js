@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Footer from "./components/Footer";
 import { useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Body from './components/body';
+import Body from './components/Body';
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
 
           <h2> About Me</h2>
           <a href="http://localhost:3000/">Home</a>
-          <Body />
+
 
         </Route>
 
