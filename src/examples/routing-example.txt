@@ -1,0 +1,23 @@
+<Header />
+
+      <Switch>
+
+        <Route path="/" exact>
+          <h2> Home</h2>
+          <a href="http://localhost:3000/about" >About me</a>
+          <Body />
+
+        </Route>
+
+        <Route path="/about">
+
+          <h2> About Me</h2>
+          <a href="http://localhost:3000/">Home</a>
+
+
+        </Route>
+
+
+      </Switch>
+
+      <Footer />
