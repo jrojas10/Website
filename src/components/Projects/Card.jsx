@@ -9,6 +9,7 @@ function Card() {
                 <div className="c-circle"></div>
                 <div className="c-circle"></div>
             </div>
+            <a href="https://github.com/jesus-r-mendoza/Walmart-Store-Sales-Forecasting" target="_blank" rel="noreferrer">Walmart</a>
         </div>
     )
 }
