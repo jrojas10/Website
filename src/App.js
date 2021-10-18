@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Footer from "./components/Footer/Footer";
 import Body from './components/body';
 import About from './components/About/About';
+import Projects from './components/Projects/Projects';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
 
       <Body/>
       <About/>
+      <Projects/>
       {/* <div className="sections">
         <Hero />
         <Projects />
