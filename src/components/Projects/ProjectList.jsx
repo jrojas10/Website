@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Projects.scss"
 import Card from './Card'
+import { projects } from "../../Data/data"
 
 function Projects() {
     return (
@@ -12,12 +13,9 @@ function Projects() {
                 </p>
             </div>
             <div className="pl-list">
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                {projects.map(item => (
+                    <Card name={item.name} link={item.link} img={item.image} />
+                ))}
             </div>
         </div >
     )
