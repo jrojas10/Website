@@ -2,7 +2,7 @@
 import React from 'react'
 import "./About.scss"
 import kb from "../../assets/images/negativespace.jpg"
-import sc from "../../assets/images/pixabay.jpg"
+// import sc from "../../assets/images/pixabay.jpg"
 //rfce
 
 

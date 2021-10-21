@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Body from './components/body';
 import About from './components/About/About';
 import ProjectList from './components/Projects/ProjectList';
+import Contact from './components/Conact/Contact';
 
 function App() {
 
@@ -22,10 +23,7 @@ function App() {
       <Body/>
       <About/>
       <ProjectList/>
-      {/* <div className="sections">
-        <Hero />
-        <Projects />
-      </div> */}
+      <Contact/>
       <Footer />
 
     </div >

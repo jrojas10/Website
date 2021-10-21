@@ -24,4 +24,4 @@ export const projects = [
 ]
 
 
-let api = "https://api.github.com/users/jrojas10";
+// let api = "https://api.github.com/users/jrojas10";

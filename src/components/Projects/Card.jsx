@@ -2,16 +2,18 @@ import React from 'react';
 import "./Card.scss";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card'
+import { DiReact } from 'react-icons/di'
 
 
 function card(props) {
     return (
         <div>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '25rem' }} className="cr">
                 <Card.Img variant="top" src={props.img} />
                 <Card.Body>
                     <Card.Title>{props.name}</Card.Title>
                     <Card.Text>
+                        <DiReact className="ri" />
                         Some quick example text to build on the card title and make up the bulk of
                         the card's content.
                     </Card.Text>
