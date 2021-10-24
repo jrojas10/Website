@@ -6,11 +6,11 @@ function Header() {
     return (
         <Navbar bg="dark" variant="dark" sticky="top">
             <Container>
-                <Navbar.Brand href="/">Juan Rojas</Navbar.Brand>
+                <Navbar.Brand href="#Home">Home</Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="#one">Home</Nav.Link>
-                    <Nav.Link href="#two">About Me</Nav.Link>
-                    <Nav.Link href="#three">3</Nav.Link>
+                    <Nav.Link href="#About">About</Nav.Link>
+                    <Nav.Link href="#Projects">Projects</Nav.Link>
+                    <Nav.Link href="#Contact">Contact</Nav.Link>
                 </Nav>
             </Container>
 

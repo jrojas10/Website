@@ -1,0 +1,49 @@
+.c-card {
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid grey;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+
+.c-browser {
+    height: 20px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.c-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+
+}
+
+img {
+    display: flex;
+    height: 70%;
+    position: relative;
+}
+
+//button
+.but {
+    display: flex;
+}
+
+//react icon
+.ri {
+    color: rgb(10, 181, 248);
+    font-size: 50px;
+
+}
+
+
+.cr {
+    width: 25rem;
+    border-color: blue;
+    border-width: 5px;
+}
