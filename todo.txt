@@ -1,0 +1,3 @@
+add color to each section
+
+add linkedIn/github icons to header/footer

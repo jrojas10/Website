@@ -17,7 +17,7 @@ function card(props) {
                         Some quick example text to build on the card title and make up the bulk of
                         the card's content.
                     </Card.Text>
-                    <Button href={props.link} variant="success">Link</Button>
+                    <Button href={props.link} variant="success" target="_blank">Link</Button>
                 </Card.Body>
             </Card>
         </div>
@@ -32,7 +32,7 @@ export default card
 
 // function Card(props) {
 //     return (
-//         <div className="c">
+//         <div className="c-card">
 //             <div className="c-browser">
 //                 <div className="c-circle"></div>
 //                 <div className="c-circle"></div>
