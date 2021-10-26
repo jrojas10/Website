@@ -4,7 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Body from './components/body';
 import About from './components/About/About';
 import ProjectList from './components/Projects/ProjectList';
-import Contact from './components/Conact/Contact';
+import Contact from './components/Contact/Contact';
 
 function App() {
 
