@@ -82,3 +82,9 @@ button {
     color: white;
     font-weight: 500;
 }
+
+@media screen and (max-width: 480px) {
+    .c-wrapper {
+        flex-direction: column;
+    }
+}
