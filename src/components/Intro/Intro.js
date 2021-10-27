@@ -1,8 +1,8 @@
-import "./body.scss";
-import Me from "../assets/images/me.jpg";
+import "./Intro.scss";
+import Me from "../../assets/images/me.jpg";
 
 
-function Body() {
+function Intro() {
 
     return (
 
@@ -41,4 +41,4 @@ am always open to feedback on my current performance.
 }
 
 
-export default Body;
+export default Intro;

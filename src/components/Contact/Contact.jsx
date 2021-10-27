@@ -24,13 +24,13 @@ function Contact() {
         setDone(true);
         setModal(true);
         console.log("Submitted");
-        // emailjs.sendForm('service_f42kafi', 'template_313csrc', formRef.current, {process.env.REACT_APP_USERID})
-        //     .then((result) => {
-        //         console.log(result.text);
-        //         setDone(true);
-        //     }, (error) => {
-        //         console.log(error.text);
-        //     });
+        emailjs.sendForm('service_f42kafi', 'template_313csrc', formRef.current, process.env.REACT_APP_USERID)
+            .then((result) => {
+                console.log(result.text);
+                setDone(true);
+            }, (error) => {
+                console.log(error.text);
+            });
     }
     return (
         <div className="c" id="Contact">
@@ -57,7 +57,6 @@ function Contact() {
                         <input className="c-input" type="text" placeholder="Email" name="user_email" />
                         <textarea className="textarea" rows="5" placeholder="Message" name="message" />
                         <button>Submit</button>
-                        <p>  </p>
                         {done && <ModalForm show={modal} onHide={closeModal} />}
                     </form>
                 </div>
