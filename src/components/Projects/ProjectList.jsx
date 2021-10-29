@@ -14,7 +14,7 @@ function Projects() {
             </div>
             <div className="pl-list">
                 {projects.map(item => (
-                    <Card key={item.id} name={item.name} link={item.link} img={item.image} />
+                    <Card key={item.id} name={item.name} link={item.link} img={item.image} className="mb-2" />
                 ))}
             </div>
         </div >

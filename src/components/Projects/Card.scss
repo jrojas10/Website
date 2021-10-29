@@ -25,7 +25,9 @@
 
 img {
     display: flex;
-    height: 70%;
+    width: 286px;
+    height: auto;
+
     position: relative;
 }
 
@@ -42,8 +44,17 @@ img {
 }
 
 
-.cr {
-    width: 25rem;
-    border-color: blue;
-    border-width: 5px;
+// .cr {
+
+//     border-color: blue;
+//     border-width: 5px;
+// }
+
+@media screen and (max-width: 480px) {
+    .p {
+        width: 20%;
+        height: 20vh;
+    }
+
+
 }
