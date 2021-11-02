@@ -25,3 +25,23 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.cr {
+    width: 25rem;
+}
+
+@media screen and (max-width: 480px) {
+    .pl {
+        padding: 0px;
+    }
+
+    .pl-text {
+        width: 70%;
+    }
+
+    .cr {
+        width: 10%;
+    }
+
+
+}

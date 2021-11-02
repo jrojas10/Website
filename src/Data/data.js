@@ -20,6 +20,18 @@ export const projects = [
         name: "Walmart",
         image: walmart,
         link : "https://github.com/jesus-r-mendoza/Walmart-Store-Sales-Forecasting"
+    },
+     {
+        id:4,
+        name: "Walmart",
+        image: walmart,
+        link : "https://github.com/jesus-r-mendoza/Walmart-Store-Sales-Forecasting"
+    },
+     {
+        id:5,
+        name: "Walmart",
+        image: walmart,
+        link : "https://github.com/jesus-r-mendoza/Walmart-Store-Sales-Forecasting"
     }
 ]
 
