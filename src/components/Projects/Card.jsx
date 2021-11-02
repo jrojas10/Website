@@ -7,8 +7,8 @@ import { DiReact } from 'react-icons/di'
 
 function card(props) {
     return (
-        <div>
-            <Card style={{ width: '25rem' }} className="cr">
+        <div className="cr">
+            <Card>
                 <Card.Img variant="top" src={props.img} />
                 <Card.Body>
                     <Card.Title>{props.name}</Card.Title>
