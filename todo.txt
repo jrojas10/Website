@@ -1,3 +1,5 @@
 add color to each section
 
 add linkedIn/github icons to header/footer
+
+in card scss, width rem is the size of the card, ommitted for smaller devices
