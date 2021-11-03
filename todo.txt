@@ -9,3 +9,10 @@ https://bennettfeely.com/clippy/ css clip path in intro scss
 add border to cards
 
 change height for contact form , from vh to something to allot header to be seen
+
+
+download images for statefarm etc
+
+images for technologies- like react, node, python, jupyter notebook
+
+replace green text with a carrousel of images of technologies?
