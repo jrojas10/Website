@@ -4,4 +4,8 @@ add linkedIn/github icons to header/footer
 
 in card scss, width rem is the size of the card, ommitted for smaller devices
 
-https://bennettfeely.com/clippy/ css clip path
+https://bennettfeely.com/clippy/ css clip path in intro scss
+
+add border to cards
+
+change height for contact form , from vh to something to allot header to be seen
