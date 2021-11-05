@@ -1,5 +1,5 @@
 .c {
-    height: 100vh;
+    // height: 100vh;
     position: relative;
 }
 
@@ -48,7 +48,8 @@
 }
 
 .c-desc {
-    font-weight: 200;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .form {
@@ -88,4 +89,19 @@ button {
         flex-direction: column;
 
     }
+
+    .c-input {
+        width: 100%;
+    }
+
+    .textarea {
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
 }

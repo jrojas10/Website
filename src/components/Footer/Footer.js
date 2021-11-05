@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import {FaLinkedin, FaGithub} from 'react-icons/fa'
+import "./Footer.scss"
+//import {Link} from 'react-router-dom'
 
 
 class Footer extends Component {
@@ -11,6 +14,16 @@ class Footer extends Component {
                             <svg className="bi" width="30" height="24"></svg>
                         </a>
                         <span className="text-muted"> 2021   Juan Rojas</span>
+
+                        <a href="https://github.com/jrojas10" target="_blank" rel="noreferrer" className="ml-3 text-muted text-decoration-none">
+                            <FaGithub className="icon"/>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/juan-rojas-1ab140184/" target="_blank" rel="noreferrer" className="ml-3 text-muted text-decoration-none">
+                            <FaLinkedin className="icon"/>
+                        </a>
+                        
+                        
                     </div>
                 </footer>
             </div>

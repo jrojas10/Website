@@ -55,6 +55,7 @@ function Contact() {
                         <input className="c-input" type="text" placeholder="Name" name="user_name" />
                         <input className="c-input" type="text" placeholder="Subject" name="user_subject" />
                         <input className="c-input" type="text" placeholder="Email" name="user_email" />
+                        <br />
                         <textarea className="textarea" rows="5" placeholder="Message" name="message" />
                         <button>Submit</button>
                         {done && <ModalForm show={modal} onHide={closeModal} />}
