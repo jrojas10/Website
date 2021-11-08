@@ -2,7 +2,7 @@ import React from 'react';
 import "./Card.scss";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card'
-import { DiReact } from 'react-icons/di'
+
 
 
 function card(props) {
@@ -13,9 +13,7 @@ function card(props) {
                 <Card.Body>
                     <Card.Title>{props.name}</Card.Title>
                     <Card.Text>
-                        <DiReact className="ri" />
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        {props.description}
                     </Card.Text>
                     <Button href={props.link} variant="success" target="_blank">Link</Button>
                 </Card.Body>

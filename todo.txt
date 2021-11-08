@@ -1,7 +1,23 @@
 add color to each section
 
-add linkedIn/github icons to header/footer
 
 in card scss, width rem is the size of the card, ommitted for smaller devices
 
-https://bennettfeely.com/clippy/ css clip path
+https://bennettfeely.com/clippy/ css clip path in intro scss
+
+add border to cards
+
+images for technologies- like react, node, python, jupyter notebook
+
+replace green text with a carrousel of images of technologies?
+
+
+FaGithub
+FaLinkedin
+FaReact
+
+https://www.pexels.com/photo/milky-way-illustration-1169754/
+
+replace about me section with technologies
+
+fade in components
