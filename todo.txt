@@ -25,3 +25,5 @@ FaReact
 https://www.pexels.com/photo/milky-way-illustration-1169754/
 
 replace about me section with technologies
+
+fade in components
