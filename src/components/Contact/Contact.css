@@ -1,5 +1,5 @@
 .c {
-    // height: 100vh;
+    /* height: 100vh; */
     position: relative;
 }
 
@@ -57,17 +57,7 @@
 
 }
 
-.c-input {
 
-    width: 50%;
-    height: 50px;
-    border: none;
-    border-bottom: 1px solid black;
-    margin: 10px 0px;
-    font-size: 14px;
-    padding-left: 10px;
-    display: block
-}
 
 .textarea {
     width: 100%;
@@ -83,6 +73,22 @@ button {
     color: white;
     font-weight: 500;
 }
+
+.c-input {
+
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+    display: block
+}
+
+
+
+
 
 @media screen and (max-width: 480px) {
     .c-wrapper {
