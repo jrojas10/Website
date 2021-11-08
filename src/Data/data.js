@@ -1,5 +1,6 @@
-import walmart from "../assets/images/Walmart.jpg"
-import statefarm from "../assets/images/statefarm.png"
+import walmart from "../assets/images/Walmart.jpg";
+import statefarm from "../assets/images/statefarm.png";
+import discord from "../assets/images/discord.png";
 
 
 
@@ -28,7 +29,7 @@ export const projects = [
      {
         id:4,
         name: "Discord Bot",
-        image: walmart,
+        image: discord,
         link : "https://github.com/jrojas10/Mecha-Senku",
         description:"A simple Discord bot that uses the Discord API to send messages to a channel based on the user's input"
     },
