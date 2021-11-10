@@ -67,20 +67,20 @@ function Contact() {
                     <Form className="form" ref={formRef} onSubmit={handleSubmit} noValidate validated={validated}>
                         <Form.Group>
                             <input type="text" className="c-input" name="user_name" placeholder="Name" required />
-                            <Form.Control.Feedback type="invalid"> Please provide a name </Form.Control.Feedback>
+                            <Form.Control.Feedback type="invalid"> Please enter a name </Form.Control.Feedback>
                         </Form.Group>
                         <Form.Group>
                             <input required className="c-input" type="text" placeholder="Subject" name="user_subject" />
-                            <Form.Control.Feedback type="invalid"> Please provide a subject </Form.Control.Feedback>
+                            <Form.Control.Feedback type="invalid"> Please enter a subject </Form.Control.Feedback>
                         </Form.Group>
                         <Form.Group>
                             <input required className="c-input" type="text" placeholder="Email" name="user_email" />
-                            <Form.Control.Feedback type="invalid"> Please provide an email </Form.Control.Feedback>
+                            <Form.Control.Feedback type="invalid"> Please enter an email </Form.Control.Feedback>
                         </Form.Group>
                         <br />
                         <Form.Group>
                             <textarea required className="textarea" rows="5" placeholder="Message" name="message" />
-                            <Form.Control.Feedback type="invalid"> Please provide a message </Form.Control.Feedback>
+                            <Form.Control.Feedback type="invalid"> Please enter a message </Form.Control.Feedback>
                         </Form.Group>
                         <br />
                         <button type="submit">Submit</button>

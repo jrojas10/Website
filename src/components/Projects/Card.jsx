@@ -9,14 +9,16 @@ function card(props) {
     return (
         <div className="cr">
             <Card>
-                <Card.Img variant="top" src={props.img} />
-                <Card.Body>
-                    <Card.Title>{props.name}</Card.Title>
-                    <Card.Text>
-                        {props.description}
-                    </Card.Text>
-                    <Button href={props.link} variant="success" target="_blank">Link</Button>
-                </Card.Body>
+                <div className="brdr">
+                    <Card.Img variant="top" src={props.img} />
+                    <Card.Body>
+                        <Card.Title>{props.name}</Card.Title>
+                        <Card.Text>
+                            {props.description}
+                        </Card.Text>
+                        <Button href={props.link} variant="success" target="_blank">Link</Button>
+                    </Card.Body>
+                </div>
             </Card>
         </div>
     )
