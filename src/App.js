@@ -6,16 +6,35 @@ import About from './components/About/About';
 import ProjectList from './components/Projects/ProjectList';
 import Contact from './components/Contact/Contact';
 
+
+import { Switch, Route } from 'react-router-dom';
+
 function App() {
 
   return (
     <div className="App">
+
+      <Switch>
+
+        <Route exact path="/">
       <Header />
       <Intro/>
       <About/>
       <ProjectList/>
       <Contact/>
       <Footer />
+      
+        </Route>
+
+
+        {/* fade test */}
+        <Route path="/test">
+          <Header />
+          
+          <Footer/>
+        </Route>
+
+      </Switch>
     </div >
   );
 }

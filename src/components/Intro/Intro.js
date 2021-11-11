@@ -1,11 +1,12 @@
 import "./Intro.scss";
 import Me from "../../assets/images/me.jpg";
+import FadeIn from "../vfx/FadeIn";
 
 
 function Intro() {
 
     return (
-
+        <FadeIn>
         <div className= "i" id="Home">
             <div className = "i-left">
                 <div className  = "i-left-wrapper">
@@ -36,7 +37,7 @@ am always open to feedback on my current performance.
             </div>
           
         </div>
-
+        </FadeIn>
     )
 }
 
