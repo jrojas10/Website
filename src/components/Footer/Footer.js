@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {FaLinkedin, FaGithub} from 'react-icons/fa'
 import "./Footer.scss"
+
 //import {Link} from 'react-router-dom'
 
 

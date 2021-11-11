@@ -7,8 +7,6 @@ import ProjectList from './components/Projects/ProjectList';
 import Contact from './components/Contact/Contact';
 
 
-
-import FadeIn from './examples/FadeIn';
 import { Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -22,11 +20,10 @@ function App() {
       <Header />
       <Intro/>
       <About/>
-      <FadeIn>
       <ProjectList/>
-      </FadeIn>
       <Contact/>
       <Footer />
+      
         </Route>
 
 
