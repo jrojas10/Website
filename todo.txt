@@ -12,9 +12,6 @@ images for technologies- like react, node, python, jupyter notebook
 replace green text with a carrousel of images of technologies?
 
 
-FaGithub
-FaLinkedin
-FaReact
 
 https://www.pexels.com/photo/milky-way-illustration-1169754/
 
