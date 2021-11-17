@@ -20,3 +20,4 @@ clean up fadeIn component
 
 
 add fade component to technologies components
+add svg for tech logos
