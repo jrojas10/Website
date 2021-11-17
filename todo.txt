@@ -19,3 +19,12 @@ https://www.pexels.com/photo/milky-way-illustration-1169754/
 
 clean up fadeIn component
 
+
+change link buttons to github icon
+
+
+fix text color in cards
+
+donwload file
+
+<Link to="/files/myfile.pdf" target="_blank" download>Download</Link>

@@ -1,9 +1,8 @@
 import React from 'react';
 import "./Card.scss";
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card'
 import FadeIn from '../vfx/FadeIn'
-
+import { FaGithub } from 'react-icons/fa';
 
 
 function card(props) {
@@ -18,7 +17,10 @@ function card(props) {
                             <Card.Text>
                                 {props.description}
                             </Card.Text>
-                            <Button href={props.link} variant="success" target="_blank">Link</Button>
+                            <a href={props.link} target="_blank" rel="noreferrer" className="ml-3 text-muted text-decoration-none">
+                                <FaGithub className="gi" />
+                            </a>
+
                         </Card.Body>
                     </div>
                 </Card>
