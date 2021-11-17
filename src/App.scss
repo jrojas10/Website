@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 
+$bg-particle: url('../src/assets/images/particles.png');
+$bg-triangle: url('../src/assets/images/triangles.png');
+
 .App {
 
   font-family: 'Ubuntu', sans-serif;
+
+  color: white;
+
 
 
 }

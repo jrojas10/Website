@@ -6,15 +6,11 @@ https://bennettfeely.com/clippy/ css clip path in intro scss
 
 add border to cards
 
-replace about me section with technologies
-images for technologies- like react, node, python, jupyter notebook
+
 
 replace green text with a carrousel of images of technologies?
 
 
-FaGithub
-FaLinkedin
-FaReact
 
 https://www.pexels.com/photo/milky-way-illustration-1169754/
 
@@ -22,3 +18,5 @@ https://www.pexels.com/photo/milky-way-illustration-1169754/
 
 clean up fadeIn component
 
+
+add fade component to technologies components

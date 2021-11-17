@@ -5,36 +5,32 @@ import Intro from './components/Intro/Intro';
 import About from './components/About/About';
 import ProjectList from './components/Projects/ProjectList';
 import Contact from './components/Contact/Contact';
+import Tech from './components/Tech/Tech';
 
 
-import { Switch, Route } from 'react-router-dom';
+import BG from './components/vfx/BG';
 
 function App() {
 
+
+
+
+
+
   return (
     <div className="App">
+      <BG />
 
-      <Switch>
-
-        <Route exact path="/">
       <Header />
-      <Intro/>
-      <About/>
-      <ProjectList/>
-      <Contact/>
+
+      <Intro />
+      <Tech />
+      <About />
+      <ProjectList />
+      <Contact />
       <Footer />
-      
-        </Route>
 
 
-        {/* fade test */}
-        <Route path="/test">
-          <Header />
-          
-          <Footer/>
-        </Route>
-
-      </Switch>
     </div >
   );
 }
