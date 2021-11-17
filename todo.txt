@@ -6,8 +6,7 @@ https://bennettfeely.com/clippy/ css clip path in intro scss
 
 add border to cards
 
-replace about me section with technologies
-images for technologies- like react, node, python, jupyter notebook
+
 
 replace green text with a carrousel of images of technologies?
 
@@ -20,11 +19,4 @@ https://www.pexels.com/photo/milky-way-illustration-1169754/
 clean up fadeIn component
 
 
-change link buttons to github icon
-
-
-fix text color in cards
-
-donwload file
-
-<Link to="/files/myfile.pdf" target="_blank" download>Download</Link>
+add fade component to technologies components
