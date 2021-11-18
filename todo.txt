@@ -1,23 +1,15 @@
-add background
-
-in card scss, width rem is the size of the card, ommitted for smaller devices
-
+LINKS
 https://bennettfeely.com/clippy/ css clip path in intro scss
-
-add border to cards
-
-
-
-replace green text with a carrousel of images of technologies?
-
-
-
 https://www.pexels.com/photo/milky-way-illustration-1169754/
 
 
+INFO
+in card scss, width rem is the size of the card, ommitted for smaller devices
 
+
+!NEW!
 clean up fadeIn component
-
-
+replace green text with a carrousel of images of technologies?
 add fade component to technologies components
-add svg for tech logos
+mode download resume to contact section
+resize svg logos

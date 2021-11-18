@@ -15,8 +15,16 @@
     font-size: 50px;
     position: relative;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .tech-table {
     text-align: center;
+
+}
+
+.tech-row {
+    justify-content: space-between;
+    padding-bottom: 20px;
+
 }
