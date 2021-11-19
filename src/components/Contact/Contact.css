@@ -47,6 +47,14 @@
     margin-right: 2px;
 }
 
+.c-download-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+    margin-left: 20px;
+    color: black;
+}
+
 .c-desc {
     font-weight: 600;
     font-size: 20px;
@@ -84,6 +92,10 @@ button {
     font-size: 14px;
     padding-left: 10px;
     display: block
+}
+
+.icon-link {
+    padding-left: 50px;
 }
 
 
