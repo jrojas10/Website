@@ -30,6 +30,13 @@
 
 .tech-row {
     justify-content: space-between;
+    align-items: center;
     padding-bottom: 120px;
 
+}
+
+@media screen and (max-width: 768px) {
+    .tech-title {
+        margin-top: 100px;
+    }
 }

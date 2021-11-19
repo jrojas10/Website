@@ -1,5 +1,6 @@
 import React from 'react';
 //scss
+import FadeIn from '../vfx/FadeIn';
 import "./Tech.scss";
 
 //for table
@@ -19,6 +20,9 @@ import jupyter from '../../assets/images/jupyter.svg';
 import numpy from '../../assets/images/numpy.svg';
 import pandas from '../../assets/images/pandas.svg';
 import git from '../../assets/images/git.svg';
+import java from '../../assets/images/java.svg';
+import html from '../../assets/images/html.svg';
+
 
 function Tech() {
     return (
@@ -33,14 +37,15 @@ function Tech() {
                             <Col xs={6} lg={2}><TechCard img={react} title="React" /></Col>
                             <Col xs={6} lg={2}><TechCard img={Nodejs} /></Col>
                             <Col xs={6} lg={2}><TechCard img={bootstrap} /></Col>
-                        </Row>
 
-                        <Row className="tech-row">
                             <Col xs={6} lg={2}><TechCard img={python} /></Col>
                             <Col xs={6} lg={2}><TechCard img={jupyter} /></Col>
                             <Col xs={6} lg={2}><TechCard img={numpy} /></Col>
                             <Col xs={6} lg={2}><TechCard img={pandas} /></Col>
                             <Col xs={6} lg={2}><TechCard img={git} /></Col>
+
+                            <Col xs={6} lg={2}><TechCard img={java} /></Col>
+                            <Col xs={6} lg={2}><TechCard img={html} /></Col>
                         </Row>
                     </div>
                 </div>
