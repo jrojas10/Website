@@ -28,27 +28,34 @@ function Tech() {
     return (
         <div id="Technology" className="t">
             <Container>
+
                 <div className="tech" >
-                    <h1 className="tech-title">Technologies</h1>
-                    <div className="tech-table">
-                        <Row className="tech-row">
-                            <Col xs={6} lg={2}><TechCard img={mongodb} /></Col>
-                            <Col xs={6} lg={2}><TechCard img={express} /></Col>
-                            <Col xs={6} lg={2}><TechCard img={react} title="React" /></Col>
-                            <Col xs={6} lg={2}><TechCard img={Nodejs} /></Col>
-                            <Col xs={6} lg={2}><TechCard img={bootstrap} /></Col>
+                    <FadeIn>
+                        <h1 className="tech-title">Technologies</h1>
+                    </FadeIn>
 
-                            <Col xs={6} lg={2}><TechCard img={python} /></Col>
-                            <Col xs={6} lg={2}><TechCard img={jupyter} /></Col>
-                            <Col xs={6} lg={2}><TechCard img={numpy} /></Col>
-                            <Col xs={6} lg={2}><TechCard img={pandas} /></Col>
-                            <Col xs={6} lg={2}><TechCard img={git} /></Col>
+                    <FadeIn>
+                        <div className="tech-table">
+                            <Row className="tech-row">
+                                <Col xs={6} lg={2}><TechCard img={mongodb} /></Col>
+                                <Col xs={6} lg={2}><TechCard img={express} /></Col>
+                                <Col xs={6} lg={2}><TechCard img={react} title="React" /></Col>
+                                <Col xs={6} lg={2}><TechCard img={Nodejs} /></Col>
+                                <Col xs={6} lg={2}><TechCard img={bootstrap} /></Col>
 
-                            <Col xs={6} lg={2}><TechCard img={java} /></Col>
-                            <Col xs={6} lg={2}><TechCard img={html} /></Col>
-                        </Row>
-                    </div>
+                                <Col xs={6} lg={2}><TechCard img={python} /></Col>
+                                <Col xs={6} lg={2}><TechCard img={jupyter} /></Col>
+                                <Col xs={6} lg={2}><TechCard img={numpy} /></Col>
+                                <Col xs={6} lg={2}><TechCard img={pandas} /></Col>
+                                <Col xs={6} lg={2}><TechCard img={git} /></Col>
+
+                                <Col xs={6} lg={2}><TechCard img={java} /></Col>
+                                <Col xs={6} lg={2}><TechCard img={html} /></Col>
+                            </Row>
+                        </div>
+                    </FadeIn>
                 </div>
+
             </Container>
         </div>
     )
