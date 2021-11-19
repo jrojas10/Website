@@ -1,7 +1,7 @@
 LINKS
 https://bennettfeely.com/clippy/ css clip path in intro scss
 https://www.pexels.com/photo/milky-way-illustration-1169754/
-
+https://www.vectorlogo.zone/ svg logs
 
 INFO
 in card scss, width rem is the size of the card, ommitted for smaller devices
@@ -9,7 +9,8 @@ in card scss, width rem is the size of the card, ommitted for smaller devices
 
 !NEW!
 clean up fadeIn component
-replace green text with a carrousel of images of technologies?
+delete green text
+add responsiveness to tech component
 add fade component to technologies components
-mode download resume to contact section
-resize svg logos
+move download resume to contact section
+resize svg logos, make logos in circle outlines

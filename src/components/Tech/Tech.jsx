@@ -22,29 +22,30 @@ import git from '../../assets/images/git.svg';
 
 function Tech() {
     return (
-        <Container>
-            <div className="tech">
-                <h1 className="tech-title">Technologies</h1>
-                <div className="tech-table">
-                    <Row className="tech-row">
-                        <Col xs={6} lg={2}><TechCard img={mongodb} /></Col>
-                        <Col xs={6} lg={2}><TechCard img={express} /></Col>
-                        <Col xs={6} lg={2}><TechCard img={react} title="React" /></Col>
-                        <Col xs={6} lg={2}><TechCard img={Nodejs} /></Col>
-                        <Col xs={6} lg={2}><TechCard img={bootstrap} /></Col>
-                    </Row>
+        <div id="Technology" className="t">
+            <Container>
+                <div className="tech" >
+                    <h1 className="tech-title">Technologies</h1>
+                    <div className="tech-table">
+                        <Row className="tech-row">
+                            <Col xs={6} lg={2}><TechCard img={mongodb} /></Col>
+                            <Col xs={6} lg={2}><TechCard img={express} /></Col>
+                            <Col xs={6} lg={2}><TechCard img={react} title="React" /></Col>
+                            <Col xs={6} lg={2}><TechCard img={Nodejs} /></Col>
+                            <Col xs={6} lg={2}><TechCard img={bootstrap} /></Col>
+                        </Row>
 
-                    <Row className="tech-row">
-                        <Col xs={6} lg={2}><TechCard img={python} /></Col>
-                        <Col xs={6} lg={2}><TechCard img={jupyter} /></Col>
-                        <Col xs={6} lg={2}><TechCard img={numpy} /></Col>
-                        <Col xs={6} lg={2}><TechCard img={pandas} /></Col>
-                        <Col xs={6} lg={2}><TechCard img={git} /></Col>
-                    </Row>
+                        <Row className="tech-row">
+                            <Col xs={6} lg={2}><TechCard img={python} /></Col>
+                            <Col xs={6} lg={2}><TechCard img={jupyter} /></Col>
+                            <Col xs={6} lg={2}><TechCard img={numpy} /></Col>
+                            <Col xs={6} lg={2}><TechCard img={pandas} /></Col>
+                            <Col xs={6} lg={2}><TechCard img={git} /></Col>
+                        </Row>
+                    </div>
                 </div>
-            </div>
-        </Container>
-
+            </Container>
+        </div>
     )
 }
 

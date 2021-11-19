@@ -8,7 +8,13 @@ import ModalForm from './ModalForm';
 import Form from 'react-bootstrap/Form'
 import './Contact.css';
 import FadeIn from '../vfx/FadeIn'
+import { Link } from 'react-router-dom'
 
+import { IoIosPaper } from "react-icons/io";
+import { FaDownload, FaEye } from "react-icons/fa";
+import Col from 'react-bootstrap/Col';
+
+import myPDF from './Resume.pdf';
 
 
 
@@ -54,12 +60,29 @@ function Contact() {
                         <h1 className="c-title"> Contact Me </h1>
                         <div className="c-info">
                             <div className="c-info-item">
-                                <img src={Phone} alt="" className="c-icon" />
+                                <img src={Phone} alt="phone" className="c-icon" />
                                 +1 (562) 271-8301
                             </div>
                             <div className="c-info-item">
-                                <img src={Email} alt="" className="c-icon" />
+                                <img src={Email} alt="email" className="c-icon" />
                                 jrojasbf@gmail.com
+                            </div>
+                            <div className="c-info-item">
+                                <IoIosPaper className="c-icon" />
+                                Resume
+                                <Col className="icon-link">
+                                    View
+                                    <Link to={myPDF} target="_blank" rel="noreferrer"  >
+                                        <FaEye className="c-download-icon" />
+                                    </Link>
+                                </Col>
+
+                                <Col className="icon-link">
+                                    Download
+                                    <Link to={myPDF} target="_blank" rel="noreferrer" download  >
+                                        <FaDownload className="c-download-icon" />
+                                    </Link>
+                                </Col>
                             </div>
                         </div>
                     </div>
@@ -91,7 +114,7 @@ function Contact() {
                     </div>
                 </div>
             </div>
-        </FadeIn>
+        </FadeIn >
     )
 }
 
