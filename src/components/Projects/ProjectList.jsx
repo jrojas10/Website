@@ -1,8 +1,18 @@
 import React from 'react'
 import "./Projects.scss"
-import Card from './Card'
+
+
+//data
 import { projects } from "../../Data/data"
+
+//vfx
 import FadeIn from '../vfx/FadeIn'
+
+//for grid
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from './Card'
 
 function Projects() {
     return (

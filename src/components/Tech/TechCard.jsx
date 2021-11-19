@@ -9,7 +9,7 @@ function TechCard(props) {
 
 
             <Card>
-                <Card.Img variant="top" src={props.img} className="t-icon" />
+                <Card.Img variant="top" src={props.image} className="t-icon" />
             </Card>
         </div>
     )

@@ -13,3 +13,6 @@ update project component
 
 
 
+done
+imporoved tech component to use map to iterate over techs
+fade in component to each card in tech and not tech as a whole?
