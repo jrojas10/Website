@@ -11,9 +11,11 @@ function card(props) {
             <div className="cr">
                 <Card>
                     <div className="brdr">
-                        <Card.Img variant="top" src={props.img} />
+                        <div className="resize">
+                            <Card.Img variant="top" src={props.image} />
+                        </div>
                         <Card.Body>
-                            <Card.Title>{props.name}</Card.Title>
+                            <Card.Title className="underline">{props.name}</Card.Title>
                             <Card.Text>
                                 {props.description}
                             </Card.Text>
@@ -35,22 +37,3 @@ export default card
 
 
 
-// function Card(props) {
-//     return (
-//         <div className="c-card">
-//             <div className="c-browser">
-//                 <div className="c-circle"></div>
-//                 <div className="c-circle"></div>
-//                 <div className="c-circle"></div>
-//             </div>
-//             <a href={props.link} target="_blank" rel="noreferrer">{props.name}</a>
-//             <img src={props.img} alt={props.name} />
-//             <div className="but">
-//                 <Button variant="info">Info</Button>
-//                 <Button variant="info">Info</Button>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default Card

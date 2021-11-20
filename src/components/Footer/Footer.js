@@ -15,7 +15,7 @@ class Footer extends Component {
                             <a href="/" className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                                 <svg className="bi" width="30" height="24"></svg>
                             </a>
-                            <p> 2021   Juan Rojas</p>
+                            <p>Juan M. Rojas 2021</p>
 
                             <a href="https://github.com/jrojas10" target="_blank" rel="noreferrer" className="ml-3 text-muted text-decoration-none">
                                 <FaGithub className="icon" />
@@ -24,10 +24,6 @@ class Footer extends Component {
                             <a href="https://www.linkedin.com/in/juan-rojas-1ab140184/" target="_blank" rel="noreferrer" className="ml-3 text-muted text-decoration-none">
                                 <FaLinkedin className="icon" />
                             </a>
-
-
-
-
                         </div>
                     </footer>
                 </div>

@@ -9,8 +9,7 @@ in card scss, width rem is the size of the card, ommitted for smaller devices
 
 !NEW!
 clean up fadeIn component
-delete green text
-add responsiveness to tech component
-add fade component to technologies components
-move download resume to contact section
-resize svg logos, make logos in circle outlines
+
+
+
+

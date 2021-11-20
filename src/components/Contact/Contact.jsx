@@ -71,7 +71,7 @@ function Contact() {
                                 <IoIosPaper className="c-icon" />
                                 Resume
                                 <Col className="icon-link">
-                                    View
+                                    &nbsp;&nbsp;&nbsp;&nbsp;View
                                     <Link to={myPDF} target="_blank" rel="noreferrer"  >
                                         <FaEye className="c-download-icon" />
                                     </Link>

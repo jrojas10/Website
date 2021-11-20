@@ -45,6 +45,7 @@
     width: 30px;
     height: 30px;
     margin-right: 2px;
+    color: black;
 }
 
 .c-download-icon {
@@ -72,7 +73,11 @@
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
+
+    border: 2px solid black;
 }
+
+
 
 button {
     border: none;
@@ -82,16 +87,22 @@ button {
     font-weight: 500;
 }
 
+input {
+    color: black;
+}
+
 .c-input {
 
     width: 50%;
     height: 50px;
     border: none;
-    border-bottom: 1px solid black;
+    border: 2px solid black;
+
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
-    display: block
+    display: block;
+
 }
 
 .icon-link {
@@ -121,5 +132,11 @@ button {
     button {
         margin-top: 10px;
     }
+
+    .icon-link {
+        justify-content: center;
+        padding-left: 50px;
+    }
+
 
 }
