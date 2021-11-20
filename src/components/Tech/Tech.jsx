@@ -25,15 +25,14 @@ function Tech() {
                         <h1 className="tech-title">Technologies</h1>
                     </FadeIn>
 
-                    <FadeIn>
-                        <div className="tech-table">
-                            <Row className="tech-row">
-                                {technology.map(item => (
-                                    <Col xs={6} lg={2}> <TechCard image={item.image} /> </Col>
-                                ))}
-                            </Row>
-                        </div>
-                    </FadeIn>
+                    <div className="tech-table">
+                        <Row className="tech-row">
+                            {technology.map(item => (
+                                <Col xs={6} lg={2}> <TechCard image={item.image} /> </Col>
+                            ))}
+                        </Row>
+                    </div>
+
                 </div>
 
             </Container>

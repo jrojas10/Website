@@ -11,9 +11,11 @@ function card(props) {
             <div className="cr">
                 <Card>
                     <div className="brdr">
-                        <Card.Img variant="top" src={props.img} />
+                        <div className="resize">
+                            <Card.Img variant="top" src={props.image} />
+                        </div>
                         <Card.Body>
-                            <Card.Title>{props.name}</Card.Title>
+                            <Card.Title className="underline">{props.name}</Card.Title>
                             <Card.Text>
                                 {props.description}
                             </Card.Text>
