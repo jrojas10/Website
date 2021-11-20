@@ -2,7 +2,7 @@
   "name": "my-website",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://jrojas10.github.io/website",
+  "homepage": "http://jrojas10.github.io/website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",

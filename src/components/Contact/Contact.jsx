@@ -8,7 +8,7 @@ import ModalForm from './ModalForm';
 import Form from 'react-bootstrap/Form'
 import './Contact.css';
 import FadeIn from '../vfx/FadeIn'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 import { IoIosPaper } from "react-icons/io";
 import { FaDownload, FaEye } from "react-icons/fa";
@@ -72,16 +72,16 @@ function Contact() {
                                 Resume
                                 <Col className="icon-link">
                                     &nbsp;&nbsp;&nbsp;&nbsp;View
-                                    <Link to={myPDF} target="_blank" rel="noreferrer"  >
+                                    <a href={myPDF} target="_blank" rel="noreferrer"  >
                                         <FaEye className="c-download-icon" />
-                                    </Link>
+                                    </a>
                                 </Col>
 
                                 <Col className="icon-link">
                                     Download
-                                    <Link to={myPDF} target="_blank" rel="noreferrer" download  >
+                                    <a href={myPDF} target="_blank" rel="noreferrer" download  >
                                         <FaDownload className="c-download-icon" />
-                                    </Link>
+                                    </a>
                                 </Col>
                             </div>
                         </div>
