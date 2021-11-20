@@ -1,4 +1,4 @@
-import walmart from "../assets/images/Walmart.jpg";
+import Walmart from "../assets/images/Walmart.jpg";
 import statefarm from "../assets/images/statef.png";
 import discord from "../assets/images/discord.png";
 import react from "../assets/images/reactjs.png";
@@ -10,7 +10,7 @@ export const projects = [
     {
         id: 1,
         name: "Walmart Store Sales Forecasting",
-        image: walmart,
+        image: Walmart,
         link: "https://github.com/jesus-r-mendoza/Walmart-Store-Sales-Forecasting",
         description: "Using various Machine Learning algorithms to predict Walmart's sales per week using over 420k publicly available sales records from Walmart, written in Python Jupyter Notebook"
     },

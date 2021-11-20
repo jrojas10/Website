@@ -19,15 +19,12 @@ function App() {
 
   return (
 
-    <Route exact path="/" render >
+    <Route exact path="/" >
       <div className="App">
         <BG />
-
         <Header />
-
         <Intro />
         <Tech />
-
         <ProjectList />
         <Contact />
         <Footer />
