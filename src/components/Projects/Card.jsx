@@ -37,22 +37,3 @@ export default card
 
 
 
-// function Card(props) {
-//     return (
-//         <div className="c-card">
-//             <div className="c-browser">
-//                 <div className="c-circle"></div>
-//                 <div className="c-circle"></div>
-//                 <div className="c-circle"></div>
-//             </div>
-//             <a href={props.link} target="_blank" rel="noreferrer">{props.name}</a>
-//             <img src={props.img} alt={props.name} />
-//             <div className="but">
-//                 <Button variant="info">Info</Button>
-//                 <Button variant="info">Info</Button>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default Card
