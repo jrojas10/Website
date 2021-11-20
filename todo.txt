@@ -13,3 +13,14 @@ clean up fadeIn component
 
 
 
+STEPS to deploy on github pages
+
+npm install --save-dev gh-pages
+add homepage property to package.json - "homepage": "http//:jrojas10.github.io/{repo}"
+
+add 
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build" 
+---to scripts in package.json
+
+npm run deploy
