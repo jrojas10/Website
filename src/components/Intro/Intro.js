@@ -3,24 +3,17 @@ import Me from "../../assets/images/me.jpg";
 import FadeIn from "../vfx/FadeIn";
 
 
+
 function Intro() {
 
     return (
+
         <FadeIn>
             <div className="i" id="Home">
                 <div className="i-left">
                     <div className="i-left-wrapper">
                         <h2 className="i-intro">Hello my name is</h2>
                         <h1 className="i-name">Juan Rojas</h1>
-                        {/* <div className= "i-title">
-                        <div className = "i-title-wrapper">
-                            <div className="i-title-item">Web Developer</div>
-                            <div className="i-title-item">Data Analysis</div>
-                            <div className="i-title-item">num 3</div>
-                            <div className="i-title-item">num 4</div>
-                            <div className="i-title-item">num 5</div>    
-                        </div>
-                    </div> */}
                         <p className="i-description">
                             I have been working with computers almost my whole life. My goal is to gain experience in a
                             computer science related field and be able to learn under others. I hope to use this
@@ -30,14 +23,17 @@ function Intro() {
                         </p>
                     </div>
                 </div>
+
                 <div className="i-right">
                     <div className="i-bg">
                         <img src={Me} className="i-img" alt="j" />
                     </div>
                 </div>
 
+
             </div>
         </FadeIn>
+
     )
 }
 

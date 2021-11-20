@@ -132,4 +132,10 @@ input {
         margin-top: 10px;
     }
 
+    .icon-link {
+        justify-content: center;
+        padding-left: 50px;
+    }
+
+
 }
