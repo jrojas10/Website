@@ -23,4 +23,4 @@ add
 "deploy": "gh-pages -d build" 
 ---to scripts in package.json
 
-npm run deploy
+npm run deploy- on git bash- visual studio powershell dosent detect git

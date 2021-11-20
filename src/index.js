@@ -13,15 +13,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import '../src/components/Footer/Footer.scss';
 // import '../src/components/Intro/Intro.scss';
 
-import { BrowserRouter } from 'react-router-dom';
+
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+
+    <App />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
