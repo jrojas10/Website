@@ -8,6 +8,7 @@ import Tech from './components/Tech/Tech';
 
 
 import BG from './components/vfx/BG';
+import { Route } from 'react-router-dom';
 
 function App() {
 
@@ -17,20 +18,23 @@ function App() {
 
 
   return (
-    <div className="App">
-      <BG />
 
-      <Header />
+    <Route exact path="/" render >
+      <div className="App">
+        <BG />
 
-      <Intro />
-      <Tech />
+        <Header />
 
-      <ProjectList />
-      <Contact />
-      <Footer />
+        <Intro />
+        <Tech />
+
+        <ProjectList />
+        <Contact />
+        <Footer />
 
 
-    </div >
+      </div >
+    </Route>
   );
 }
 
