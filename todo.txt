@@ -26,4 +26,3 @@ add
 npm run deploy- on git bash- visual studio powershell dosent detect git
 
 
-name repos in lowercase
