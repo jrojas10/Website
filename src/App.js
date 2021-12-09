@@ -7,7 +7,7 @@ import Contact from './components/Contact/Contact';
 import Tech from './components/Tech/Tech';
 
 
-import BG from './components/vfx/BG';
+
 import { Route } from 'react-router-dom';
 
 function App() {
