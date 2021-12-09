@@ -26,3 +26,11 @@ add
 npm run deploy- on git bash- visual studio powershell dosent detect git
 
 
+links for website backgrounds
+
+https://websitebackgroundmaker.com/
+https://www.frontendvision.io/gradient-collection
+https://coolbackgrounds.io/
+https://webgradients.com/
+https://undraw.co/illustrations
+
